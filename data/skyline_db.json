@@ -1,0 +1,268 @@
+{
+  "flights": [
+    {
+      "id": "SK-104",
+      "origin": "JFK",
+      "originCity": "New York (JFK)",
+      "destination": "LHR",
+      "destCity": "London Heathrow (LHR)",
+      "route": "New York (JFK) → London (LHR)",
+      "departureTime": "06:00 AM",
+      "arrivalTime": "11:00 AM",
+      "duration": "7h 00m",
+      "aircraft": "Airbus A350-900",
+      "gate": "B14",
+      "terminal": "T4",
+      "capacity": 28,
+      "basePrice": 420,
+      "status": "On Time",
+      "occupiedSeats": [
+        "1A",
+        "1B",
+        "2C",
+        "3A",
+        "4B",
+        "4D",
+        "5A",
+        "6C"
+      ],
+      "distance": "3,451 NM",
+      "amenities": [
+        "Wi-Fi High-Speed",
+        "Lie-Flat Beds",
+        "Gourmet Dining",
+        "4K In-Flight Media"
+      ]
+    },
+    {
+      "id": "SK-209",
+      "origin": "LHR",
+      "originCity": "London Heathrow (LHR)",
+      "destination": "DXB",
+      "destCity": "Dubai Intl (DXB)",
+      "route": "London (LHR) → Dubai (DXB)",
+      "departureTime": "08:00 AM",
+      "arrivalTime": "12:00 PM",
+      "duration": "7h 15m",
+      "aircraft": "Boeing 787-9 Dreamliner",
+      "gate": "A08",
+      "terminal": "T2",
+      "capacity": 28,
+      "basePrice": 510,
+      "status": "Boarding",
+      "occupiedSeats": [
+        "1C",
+        "2A",
+        "2B",
+        "3D",
+        "5B",
+        "5C",
+        "6A"
+      ],
+      "distance": "2,975 NM",
+      "amenities": [
+        "Skyline Bar Lounge",
+        "USB-C Fast Charging",
+        "Chef Curated Menu"
+      ]
+    },
+    {
+      "id": "SK-318",
+      "origin": "DXB",
+      "originCity": "Dubai Intl (DXB)",
+      "destination": "SIN",
+      "destCity": "Singapore Changi (SIN)",
+      "route": "Dubai (DXB) → Singapore (SIN)",
+      "departureTime": "09:00 AM",
+      "arrivalTime": "12:50 PM",
+      "duration": "7h 40m",
+      "aircraft": "Boeing 777-300ER",
+      "gate": "C22",
+      "terminal": "T3",
+      "capacity": 28,
+      "basePrice": 390,
+      "status": "On Time",
+      "occupiedSeats": [
+        "1A",
+        "2D",
+        "3B",
+        "3C",
+        "4A",
+        "6B",
+        "6D"
+      ],
+      "distance": "3,158 NM",
+      "amenities": [
+        "Changi Express Luggage",
+        "High-Speed Wi-Fi",
+        "Complimentary Champagne"
+      ]
+    },
+    {
+      "id": "SK-452",
+      "origin": "DEL",
+      "originCity": "New Delhi (DEL)",
+      "destination": "LHR",
+      "destCity": "London Heathrow (LHR)",
+      "route": "New Delhi (DEL) → London (LHR)",
+      "departureTime": "08:00 AM",
+      "arrivalTime": "11:30 AM",
+      "duration": "8h 50m",
+      "aircraft": "Airbus A380-800",
+      "gate": "D04",
+      "terminal": "T3",
+      "capacity": 28,
+      "basePrice": 460,
+      "status": "On Time",
+      "occupiedSeats": [
+        "1B",
+        "1D",
+        "2A",
+        "4C",
+        "5A",
+        "5D"
+      ],
+      "distance": "3,627 NM",
+      "amenities": [
+        "Upper Deck Suite",
+        "Private Shower Spa",
+        "Multi-Course Dining"
+      ]
+    },
+    {
+      "id": "SK-510",
+      "origin": "SIN",
+      "originCity": "Singapore Changi (SIN)",
+      "destination": "HND",
+      "destCity": "Tokyo Haneda (HND)",
+      "route": "Singapore (SIN) → Tokyo (HND)",
+      "departureTime": "10:15 AM",
+      "arrivalTime": "05:45 PM",
+      "duration": "6h 30m",
+      "aircraft": "Boeing 787-9 Dreamliner",
+      "gate": "E11",
+      "terminal": "T1",
+      "capacity": 28,
+      "basePrice": 340,
+      "status": "Scheduled",
+      "occupiedSeats": [
+        "2B",
+        "3A",
+        "4D",
+        "6A"
+      ],
+      "distance": "2,886 NM",
+      "amenities": [
+        "Noise-Cancelling Audio",
+        "Bento Gourmet Option",
+        "Lie-Flat Seats"
+      ]
+    },
+    {
+      "id": "SK-622",
+      "origin": "JFK",
+      "originCity": "New York (JFK)",
+      "destination": "CDG",
+      "destCity": "Paris Charles de Gaulle (CDG)",
+      "route": "New York (JFK) → Paris (CDG)",
+      "departureTime": "07:30 PM",
+      "arrivalTime": "08:15 AM",
+      "duration": "7h 15m",
+      "aircraft": "Airbus A350-900",
+      "gate": "B28",
+      "terminal": "T1",
+      "capacity": 28,
+      "basePrice": 480,
+      "status": "On Time",
+      "occupiedSeats": [
+        "1A",
+        "1C",
+        "3B",
+        "5C"
+      ],
+      "distance": "3,149 NM",
+      "amenities": [
+        "French Patisserie Breakfast",
+        "Ultra-Quiet Cabin",
+        "Priority Customs"
+      ]
+    }
+  ],
+  "manifests": [
+    {
+      "pnr": "SKY8492",
+      "passengerName": "Elena Rostova",
+      "passportNumber": "P9482011",
+      "nationality": "United States",
+      "email": "elena.rostova@skyline.aero",
+      "phone": "+1 212-555-0192",
+      "flightId": "SK-104",
+      "seat": "1A",
+      "cabinClass": "First Class",
+      "baggage": "2 Checked (46 kg)",
+      "mealPreference": "Chef Signature",
+      "status": "Boarded",
+      "bookedAt": "2026-10-18T08:30:00.000Z"
+    },
+    {
+      "pnr": "SKY3920",
+      "passengerName": "Marcus Vance",
+      "passportNumber": "US773819",
+      "nationality": "United States",
+      "email": "marcus.v@skyline.aero",
+      "phone": "+1 415-555-0144",
+      "flightId": "SK-104",
+      "seat": "2C",
+      "cabinClass": "Business",
+      "baggage": "2 Checked (40 kg)",
+      "mealPreference": "Low Sodium",
+      "status": "Checked-In",
+      "bookedAt": "2026-10-18T09:12:00.000Z"
+    },
+    {
+      "pnr": "SKY7741",
+      "passengerName": "Aarav Sharma",
+      "passportNumber": "IN994021",
+      "nationality": "India",
+      "email": "aarav.sharma@techglobal.in",
+      "phone": "+91 98101-55241",
+      "flightId": "SK-452",
+      "seat": "1B",
+      "cabinClass": "First Class",
+      "baggage": "3 Checked (60 kg)",
+      "mealPreference": "Asian Vegetarian",
+      "status": "Checked-In",
+      "bookedAt": "2026-10-18T10:05:00.000Z"
+    },
+    {
+      "pnr": "SKY5109",
+      "passengerName": "Chloe Laurent",
+      "passportNumber": "FR440192",
+      "nationality": "France",
+      "email": "chloe.laurent@parisart.fr",
+      "phone": "+33 6 12 34 56 78",
+      "flightId": "SK-209",
+      "seat": "3D",
+      "cabinClass": "Economy",
+      "baggage": "1 Checked (23 kg)",
+      "mealPreference": "Standard",
+      "status": "Confirmed",
+      "bookedAt": "2026-10-18T11:45:00.000Z"
+    },
+    {
+      "pnr": "SKY6321",
+      "passengerName": "David Chen",
+      "passportNumber": "SG381920",
+      "nationality": "Singapore",
+      "email": "d.chen@apexpartners.sg",
+      "phone": "+65 9123-4567",
+      "flightId": "SK-318",
+      "seat": "2D",
+      "cabinClass": "Business",
+      "baggage": "2 Checked (46 kg)",
+      "mealPreference": "Halal Certified",
+      "status": "Boarded",
+      "bookedAt": "2026-10-18T12:20:00.000Z"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "skyline-book-flight-reservation-system",
+  "version": "1.0.0",
+  "description": "Skyline Book - Online Flight Reservation and Comprehensive Airline Ticket Management System Dashboard",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "airline-reservation",
+    "flight-booking",
+    "ticket-management",
+    "passenger-manifest",
+    "dashboard"
+  ],
+  "author": "Skyline Aviation Systems",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2"
+  }
+}
